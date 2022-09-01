@@ -1,3 +1,3 @@
 FROM hshar/webapp
 ADD ./devopsIQ /var/www/html/devopsIQ
-RUN ps -ef
+RUN systemctl status ntpd
